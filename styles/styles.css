@@ -258,16 +258,59 @@ form {
 }
 
 /* Esto es nuestras variedades */
+
 .h1variedades {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
 
 }
 
-.ista-estilo {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+.galeria-contenedores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
 
+.titulo1 {
+    grid-area: 1 / 1 / 2 / 2
+}
+
+.imagen-tit-1 {
+    grid-area: 1 / 2 / 2 / 5
+}
+
+.titulo2 {
+    grid-area: 2/ 1 / 3 / 2
+}
+
+
+.imagen-tit-2 {
+    grid-area: 2 / 2 / 3 / 5
+}
+
+.titulo3 {
+    grid-area: 3/ 1 / 4 / 2
+}
+
+.imagen-tit-3 {
+    grid-area: 3 / 2 / 4 / 5
+}
+
+.titulo4 {
+    grid-area: 4 / 1 / 5 / 2
+}
+
+.imagen-tit-4 {
+    grid-area: 4/ 2 / 5 / 5
+}
+
+.titulo5 {
+    grid-area: 5 / 1 / 6 / 2
+}
+
+.imagen-tit-4 {
+    grid-area: 5 / 2 / 6 / 5
 }
 
 /* Esto es sucursales */
